@@ -1,5 +1,5 @@
 import random
-import turtle 
+
 #from random import randit
 
 app = Flask(__name__)
