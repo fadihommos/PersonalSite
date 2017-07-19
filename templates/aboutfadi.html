@@ -1,0 +1,54 @@
+{% extends "index.html" %}
+{% block body %}
+ 	<pre>
+<a href="hacker.html">
+</pre>
+
+<script>
+function show()
+{
+  alert("You will Be Taken To another Page ( Fadi Is always Here)!");
+}
+</script>
+ 	<img src="../static/hacker.jpg" alt="Smiley 3face" width="250" height="120" align="middle" style="margin:-1000px 10spx" onclick="show()">
+ 	<img src="../static/fbs.png" alt="Smiley 6face" width="200" height="120" align="middle" style="margin:-1100px 204px">
+	
+  <div class="stage">
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+</div>
+
+<p>Random Number: {{list|random}}</p>
+  <table>      
+  {% for number in list %}        
+    <tr>          
+      <td>{{number}}<td>        
+      <tr>      
+  {% endfor %}   
+</table>  
+</body>
+
+</html>
+
+
+
+	<img src="../static/fadi2.png" alt="Smiley1 face" width="230" height="120" align="middle" style="margin:-600px 0px">
+{% endblock %}

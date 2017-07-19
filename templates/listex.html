@@ -1,0 +1,15 @@
+<html>
+<body>
+{% if display==true %}
+<ol>
+{% for name in list %}
+<li>{{name}}</li>
+
+{% endfor %}
+</ol>
+{% else %}
+<IMG src="../static/hack2.jpg" alt="Smiley face" width="300" height="300" align="middle" style="margin:-220px -130px">
+{% endif %}
+
+</body>
+</html>
