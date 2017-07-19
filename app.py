@@ -1,10 +1,10 @@
-from flask import Flask, render_template
 import random
 import turtle 
 #from random import randit
 
 app = Flask(__name__)
 
+@app.route('/')
 @app.route('/home.html')
 def home():
 	return render_template("home.html")
