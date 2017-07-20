@@ -12,9 +12,7 @@ def home():
 @app.route('/aboutfadi.html')
 def aboutfadi():
 	return render_template("aboutfadi.html")
-@app.route('/home.html/<name>')
-def home1(name):
-	return render_template("home.html", name=name)
+
 
 #@app.route("/myname: <name>")
 #def nameFunc(name):
